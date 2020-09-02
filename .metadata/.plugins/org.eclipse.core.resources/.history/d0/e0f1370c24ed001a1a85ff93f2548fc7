@@ -1,0 +1,23 @@
+package com.bycw;
+
+import com.bycw.logtest.TestLogger;
+import com.bycw.netty.NettySocketServer;
+
+public class Main {
+	public static void main(String args[]) {
+		// TestLogger loggerTest = new TestLogger();
+		
+		// loggerTest.testLog4jLog();		
+		// loggerTest.testSlf4jLog();
+		
+		try {
+			new NettySocketServer().startServer(6080);
+		}
+		catch(Exception e) {
+			
+		}
+		
+	}
+}
+
+
