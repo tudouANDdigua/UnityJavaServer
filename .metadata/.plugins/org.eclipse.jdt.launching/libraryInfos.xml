@@ -19,6 +19,25 @@
 <entry path="D:\JDK1.8.0_152\JRE\lib\endorsed"/>
 </endorsedDirs>
 </libraryInfo>
+<libraryInfo home="D:\JDK1.8.0_152\JDK" version="1.8.0_152">
+<bootpath>
+<entry path="D:\JDK1.8.0_152\JDK\jre\lib\resources.jar"/>
+<entry path="D:\JDK1.8.0_152\JDK\jre\lib\rt.jar"/>
+<entry path="D:\JDK1.8.0_152\JDK\jre\lib\sunrsasign.jar"/>
+<entry path="D:\JDK1.8.0_152\JDK\jre\lib\jsse.jar"/>
+<entry path="D:\JDK1.8.0_152\JDK\jre\lib\jce.jar"/>
+<entry path="D:\JDK1.8.0_152\JDK\jre\lib\charsets.jar"/>
+<entry path="D:\JDK1.8.0_152\JDK\jre\lib\jfr.jar"/>
+<entry path="D:\JDK1.8.0_152\JDK\jre\classes"/>
+</bootpath>
+<extensionDirs>
+<entry path="D:\JDK1.8.0_152\JDK\jre\lib\ext"/>
+<entry path="C:\WINDOWS\Sun\Java\lib\ext"/>
+</extensionDirs>
+<endorsedDirs>
+<entry path="D:\JDK1.8.0_152\JDK\jre\lib\endorsed"/>
+</endorsedDirs>
+</libraryInfo>
 <libraryInfo home="D:\JDK1.8.0_152" version="1.8.0_152">
 <bootpath>
 <entry path="D:\JDK1.8.0_152\jre\lib\resources.jar"/>

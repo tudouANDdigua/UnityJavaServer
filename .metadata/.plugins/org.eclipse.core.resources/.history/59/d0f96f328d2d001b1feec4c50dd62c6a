@@ -1,0 +1,8 @@
+package com.digua.jprotobuf;
+
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
+public class JProtoBufWrapper {
+
+}

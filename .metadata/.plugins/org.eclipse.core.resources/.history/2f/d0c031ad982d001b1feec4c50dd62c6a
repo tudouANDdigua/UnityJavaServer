@@ -1,0 +1,21 @@
+package com.digua.utils;
+
+import java.io.FileInputStream;
+import java.io.IOException;
+import java.util.Properties;
+import org.slf4j.*;
+
+public class PropertiesUtil {
+	Logger logger = LoggerFactory.getLogger(PropertiesUtil.class);
+	
+	public void testProperties() {
+		Properties p = new Properties();
+		try {
+			p.load(new FileInputStream("configs/server.properties"));
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		logger.info(p.getProperty("server.version"));
+	}
+}

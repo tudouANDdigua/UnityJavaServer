@@ -1,0 +1,13 @@
+package com.digua.jprotobuf;
+
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
+//导入JProtoBuf类
+import com.baidu.bjf.remoting.protobuf.Codec;//编码、解码器对象；
+import com.baidu.bjf.remoting.protobuf。ProtobufProxy;
+import com.baidu.bjf.remoting.protobuf.annotation.Protobuf;//朱姐
+
+public class JProtoBufWrapper {
+
+}

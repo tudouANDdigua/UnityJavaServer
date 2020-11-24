@@ -1,0 +1,49 @@
+package com.digua;
+
+import java.util.PriorityQueue;
+
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
+import com.digua.jprotobuf.JProtoBufWrapper;
+import com.digua.logtest.TestLogger;
+import com.digua.netty.NettySocketServer;
+import com.digua.utils.PropertiesUtil;
+import com.digua.utils.XMLUtils;
+
+import edu.emory.mathcs.backport.java.util.concurrent.atomic.AtomicInteger;
+
+
+
+public class Timer{
+	
+	final static Logger logger = LoggerFactory.getLogger(Timer.class);
+	
+	private PriorityQueue<TimerTask> queue; //定义了一个排序队列 马上要执行的timer排在前面
+	
+	private final TimerThread thread;//定义了一个线程对象，timerThread；
+	
+	private static final AtomicInteger nextSerialNumber = new AtomicInteger(0);//全局唯一，每个timer有不同的ID
+	
+}
+public class Main {
+	public static void main(String args[]) {
+		// TestLogger loggerTest = new TestLogger();
+		
+		// loggerTest.testLog4jLog();		
+		// loggerTest.testSlf4jLog();
+		
+//		try {
+//			new NettySocketServer().startServer(6080);
+//		}
+//		catch(Exception e) {
+//			
+//		}
+//		new JProtoBufWrapper().testJProtoBuf();
+//		new XMLUtils().testXML();
+//		new PropertiesUtil().testProperties();
+		
+	}
+}
+
+

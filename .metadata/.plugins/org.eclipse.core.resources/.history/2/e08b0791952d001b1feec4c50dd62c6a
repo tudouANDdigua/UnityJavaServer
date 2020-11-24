@@ -1,0 +1,16 @@
+//XML解析
+package com.digua.utils;
+
+import org.slf4j.*;
+
+import org.simpleframework.xml.Serializer;
+import org.simpleframework.xml.core.Persister;
+
+
+public class XMLUtils {
+	private Logger logger = LoggerFactory.getLogger(XMLUtils.class);
+	
+	public void testXML() {
+		
+	}
+}

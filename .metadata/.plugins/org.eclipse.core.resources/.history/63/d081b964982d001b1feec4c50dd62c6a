@@ -1,0 +1,27 @@
+package com.digua;
+
+import com.digua.jprotobuf.JProtoBufWrapper;
+import com.digua.logtest.TestLogger;
+import com.digua.netty.NettySocketServer;
+import com.digua.utils.XMLUtils;
+
+public class Main {
+	public static void main(String args[]) {
+		// TestLogger loggerTest = new TestLogger();
+		
+		// loggerTest.testLog4jLog();		
+		// loggerTest.testSlf4jLog();
+		
+//		try {
+//			new NettySocketServer().startServer(6080);
+//		}
+//		catch(Exception e) {
+//			
+//		}
+//		new JProtoBufWrapper().testJProtoBuf();
+		new XMLUtils().testXML();
+		
+	}
+}
+
+

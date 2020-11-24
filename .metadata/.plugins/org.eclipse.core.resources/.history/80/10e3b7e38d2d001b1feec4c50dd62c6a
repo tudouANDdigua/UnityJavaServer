@@ -1,0 +1,6 @@
+package com.digua.jprotobuf;
+
+public class ReqAccountLogin {
+	@Protobuf(order = 1, required = true)
+	public long accountId;
+}

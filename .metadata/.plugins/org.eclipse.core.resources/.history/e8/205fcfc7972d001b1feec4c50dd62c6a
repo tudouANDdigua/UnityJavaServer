@@ -1,0 +1,10 @@
+package com.digua.utils;
+
+import java.io.FileInputStream;
+import java.util.Properties;
+
+import org.slf4j.*;
+
+public class PropertiesUtil {
+
+}

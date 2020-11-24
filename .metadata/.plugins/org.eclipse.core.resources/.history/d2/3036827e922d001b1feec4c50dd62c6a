@@ -1,0 +1,8 @@
+package com.digua.utils;
+
+import org.simpleframework.xml.Serializer;
+import org.simpleframework.xml.core.Persister;
+
+public class XMLUtils {
+
+}

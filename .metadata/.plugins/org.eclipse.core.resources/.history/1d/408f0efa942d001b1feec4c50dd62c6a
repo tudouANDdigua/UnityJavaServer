@@ -1,0 +1,8 @@
+package com.digua.utils;
+
+import org.simpleframework.xml.Root;
+import org.simpleframework.xml.Element;
+
+public class XMLServer {
+
+}

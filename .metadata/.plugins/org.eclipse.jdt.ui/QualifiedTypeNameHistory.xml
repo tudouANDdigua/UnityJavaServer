@@ -1,6 +1,18 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
 <fullyQualifiedTypeName name="org.apache.log4j.Logger"/>
+<fullyQualifiedTypeName name="com.baidu.bjf.remoting.protobuf.ProtobufProxy"/>
+<fullyQualifiedTypeName name="java.io.IOException"/>
+<fullyQualifiedTypeName name="com.digua.jprotobuf.JProtoBufWrapper"/>
+<fullyQualifiedTypeName name="com.baidu.bjf.remoting.protobuf.FieldType"/>
+<fullyQualifiedTypeName name="org.simpleframework.xml.core.Persister"/>
+<fullyQualifiedTypeName name="java.io.File"/>
+<fullyQualifiedTypeName name="com.digua.utils.XMLUtils"/>
+<fullyQualifiedTypeName name="com.digua.utils.PropertiesUtil"/>
+<fullyQualifiedTypeName name="java.util.PriorityQueue"/>
 <fullyQualifiedTypeName name="org.slf4j.Logger"/>
+<fullyQualifiedTypeName name="java.util.TimerTask"/>
 <fullyQualifiedTypeName name="org.slf4j.LoggerFactory"/>
+<fullyQualifiedTypeName name="edu.emory.mathcs.backport.java.util.concurrent.atomic.AtomicInteger"/>
+<fullyQualifiedTypeName name="io.netty.util.TimerTask"/>
 </qualifiedTypeNameHistroy>

@@ -1,0 +1,17 @@
+package com.digua.jprotobuf;
+
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
+//导入JProtoBuf类
+import com.baidu.bjf.remoting.protobuf.Codec;//编码、解码器对象；
+import com.baidu.bjf.remoting.protobuf.ProtobufProxy;
+import com.digua.jprotobuf.ReqAccountLogin;
+
+public class JProtoBufWrapper {
+	Logger logger = LoggerFactory.getLogger(JProtoBufWrapper.class);
+	
+	public void testJProtoBuf() {
+		
+	}
+}

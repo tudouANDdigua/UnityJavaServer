@@ -1,0 +1,41 @@
+package com.digua.jprotobuf;
+
+import java.io.IOException;
+
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
+//导入JProtoBuf类
+import com.baidu.bjf.remoting.protobuf.Codec;//编码、解码器对象；
+import com.baidu.bjf.remoting.protobuf.ProtobufProxy;
+import com.digua.jprotobuf.ReqAccountLogin;
+
+public class JProtoBufWrapper {
+	Logger logger = LoggerFactory.getLogger(JProtoBufWrapper.class);
+	
+	public void testJProtoBuf() {
+		ReqAccountLogin req = new ReqAccountLogin();
+		req.accountId = 1000;
+		req.password = "digua123";
+		//序列化
+		//吧对象数据==》二进制byte【】，来存储，传送；
+		Codec<ReqAccountLogin> code = ProtobufProxy.create(ReqAccountLogin.class);
+		byte[] res = null;
+		try {				
+			res = code.encode(req);
+		}
+		catch(IOException e) {
+			return;
+		}
+		//编码成功了=====》byte[];
+		
+		//反序列化
+		try {				
+			ReqAccountLogin newReq = code.decode(res);
+			logger.info(newReq.accountId + " " + newReq.password);
+		}
+		catch(IOException e) {
+			return;
+		}
+	}
+}
