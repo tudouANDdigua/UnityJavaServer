@@ -5,6 +5,7 @@ import com.digua.netty.NettySocketServer;
 import com.digua.utils.PropertiesUtil;
 import com.digua.utils.Timer;
 import com.digua.utils.XMLUtils;
+import com.digua.utils.EncryptWrapper;
 
 import com.digua.jprotobuf.JProtoBufWrapper;
 
@@ -17,23 +18,23 @@ import org.slf4j.LoggerFactory;
 public class Main {
 	
 	//--------计时器测试start--------
-	final static Logger logger = LoggerFactory.getLogger(Main.class);
-	
-	private static void test_timer() {
-		Timer timer = new Timer();
-		
-		timer.schedule(() -> {
-			logger.info("short task");
-        }, 1000);
-
-        timer.schedule(() -> {
-        	logger.info("long task");
-        }, 5000);
-
-        timer.scheduleAtFixedRate(() -> {
-        	logger.info("frame task");
-        }, 0, 1000);
-	}
+//	final static Logger logger = LoggerFactory.getLogger(Main.class);
+//	
+//	private static void test_timer() {
+//		Timer timer = new Timer();
+//		
+//		timer.schedule(() -> {
+//			logger.info("short task");
+//        }, 1000);
+//
+//        timer.schedule(() -> {
+//        	logger.info("long task");
+//        }, 5000);
+//
+//        timer.scheduleAtFixedRate(() -> {
+//        	logger.info("frame task");
+//        }, 0, 1000);
+//	}
 	//--------计时器测试end--------
 	public static void main(String args[]) {
 		// TestLogger loggerTest = new TestLogger();
@@ -50,8 +51,9 @@ public class Main {
 //		new JProtoBufWrapper().testJProtoBuf();
 //		new XMLUtils().testXML();
 //		new PropertiesUtil().testProperties();
-		test_timer();
+//		test_timer();
 
+		new EncryptWrapper().testEncrypt();
 	}
 }
 

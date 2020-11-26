@@ -1,0 +1,7 @@
+package com.digua.utils;
+
+public class EncryptWrapper {
+	public void testEncrypt() {
+		
+	}
+}

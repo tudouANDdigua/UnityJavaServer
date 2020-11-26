@@ -1,0 +1,19 @@
+package com.digua.utils;
+
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
+import org.apache.commons.codec.digest.DigestUtils;
+
+public class EncryptWrapper {
+	
+	private Logger logger = LoggerFactory.getLogger(EncryptWrapper.class);
+	
+	public void testEncrypt() {
+		//MD5:任意內容（二进制数据，字符串，文件）--->MD5值（）
+		String str = "123456pwd";//密码的明文，存到后台的时候，MD5值，
+		
+		String md5Str = DigestUtils.md5Hex(str);
+		logger.info(md5Str);
+	}
+}
